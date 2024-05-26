@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color palet</title>
+    <link rel="shortcut icon" href="faviIcon.gif" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slide-color">
+            <label for="red">RED</label>
+            <input type="range" id="red" name="red" min="0" max="255">
+            <span id="red-value">0</span>
+        </div>
+        <div class="slide-color">
+            <label for="green">GREEN</label>
+            <input type="range" id="green" name="green" min="0" max="255">
+            <span id="green-value">0</span>
+        </div>
+        <div class="slide-color">
+            <label for="blue">BLUE</label>
+            <input type="range" id="blue" name="blue" min="0" max="255">
+            <span id="blue-value">0</span>
+        </div>
+        <div class="color-box" id="color-box"></div>
+        <div class="hex-value" id="hex-value">#000000</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
